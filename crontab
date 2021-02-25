@@ -1,0 +1,2 @@
+#run python script every minutes
+* * * * * /usr/local/bin/python3 /application/app.py >> /opt/cron.log >/dev/null 2>&1
